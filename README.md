@@ -3,10 +3,10 @@
 ## Some Questions to try
 
 1. Write a program to display "Welcome to c programming Class".
-2. Write an algorithm, flow chart, and program to add two numbers.
-3. Write an algorithm, flow chart, and program to take the temperature in Fahrenheit and convert it into Celsius.
-4. Write an algorithm, flow chart and program to calculate the area of the triangle whose sides are taken from the user.
-5. Write an algorithm, flow chart, and program to calculate the roots of the quadratic equation.
+2. Write a program to add two numbers.
+3. Write a program to take the temperature in Fahrenheit and convert it into Celsius.
+4. Write a program to calculate the area of the triangle whose sides are taken from the user.
+5. Write a program to calculate the roots of the quadratic equation.
 6. WAP to generate Floyd's triangle as follows:
    ```sh
    1
