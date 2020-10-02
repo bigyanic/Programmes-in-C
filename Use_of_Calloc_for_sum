@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include<stdlib.h>
+main()
+{
+	int i,sum=0;
+	int *ptr;
+	ptr=(int*)calloc(6,sizeof(int));
+	for(i=0;i<5;i++)
+	{
+		scanf("%d",&ptr[i]);
+		
+	}
+	for(i=0;i<5;i++)
+	{
+	 sum=sum+ptr[i];	
+	}
+	 printf("%d",sum);
+}
