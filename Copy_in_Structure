@@ -1,0 +1,17 @@
+#include<Stdio.h>
+main()
+{
+struct disk
+{
+	char co[15];
+	float type;
+	int price;
+};
+struct disk d1={"wizard",2.25,15};
+struct disk d2,d3;
+strcpy(d2.co,d1.co);
+d2.type=d1.type;
+d2.price=d1.price;
+d3=d2=d1;
+printf("%s\n%f\n%d",d3.co,d3.type,d3.price);
+}
