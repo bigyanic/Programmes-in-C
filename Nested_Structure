@@ -1,0 +1,20 @@
+#include<stdio.h>
+main()
+{
+	struct student 
+	{
+		char name[40];
+		struct markss{
+			int sub1;
+			int sub2;
+			int sub3;
+			float average;
+		}aver;
+	};
+	struct student stud1;
+	scanf("%s",&stud1.name);
+	scanf("%d%d%d",&stud1.aver.sub1,&stud1.aver.sub2,&stud1.aver.sub3);
+	stud1.aver.average=(stud1.aver.sub1+stud1.aver.sub2+stud1.aver.sub3)/3;
+	printf("%f",stud1.aver.average);
+	
+}
