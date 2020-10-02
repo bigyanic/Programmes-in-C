@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include <string.h>
+
+main ()
+{
+	char one[10];
+	char none[10];
+	gets(one);
+	gets(none);
+	strcpy(none,one);
+	strrev(none);
+	if(strcmp(one,none)==0)
+	printf("palindrome");
+	else printf("not palindrome");
+	
+}
